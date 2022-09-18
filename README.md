@@ -1,10 +1,14 @@
 # MyRepositories
 #此篇谨用来记录10第一次成功实现vs code同步github代码，如果错误或者可以更方便的简化步骤 欢迎留言指正
 0. 预先设定
+
 git config --global user.name " "
+
 git config --global user.email " "
+
 1. 在github上，新建好自己的Responsitory
 2. 在本地想要上传的文件夹下建立.sh文件，内容如下：
+
 #!/bin/sh
 git init 
 git status  
